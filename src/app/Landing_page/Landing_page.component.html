@@ -1,0 +1,35 @@
+<div myid="myform" onsubmit="return false;">
+    <div myid="Landing_page">
+        <form [formGroup]="Landing_page_form1" (ngSubmit)="Landing_page_form1_onSubmit()" ngxScrollToFirstInvalid=""
+            angular_formname="Landing_page_form1">
+            <input type="hidden" id="validate_count" name="latestVal" latest_id="267" validatearray="" comp_object=""
+                elementcount="3" menu_data_obj="" myid="Landing_page_dynamic_id_12" container=" " dir="ltr">
+            <div id="landingDiv" myid="Landing_page_dynamic_id_4" container=" " dir="ltr">
+                <img src="assets/images/logo.png?ver=1.0.0" myid="Landing_page_dynamic_id_5"
+                    class="uniservenxtcmp_image" compname="Image" formcomponent="true" id="uniservenxtcmp_image_1"
+                    container=" " dir="ltr">
+                <h3 myid="Landing_page_dynamic_id_6" class="uniservenxtcmp_heading form-header" compname="Heaing"
+                    formcomponent="true" id="uniservenxtcmp_heading_2" container=" " dir="ltr"
+                    i18nkey="zform.Landing_page.Landing_page_dynamic_id_6">Offline Utility Version
+                    ITDefiling-DU-v{{version}}</h3>
+                <div id="notification" class="hidden">
+                    <p id="message"></p>
+                    <button  (click)="restart()" id="install-Upd" class="hidden">
+                        Restart
+                    </button>
+
+                </div>
+                <img src="assets/images/loader.gif" myid="Landing_page_243" container=" " dir="ltr"
+                    class="uniservenxtcmp_image">
+            </div>
+            <button id="btnProceed" myid="Landing_page_dynamic_id_8"
+                class="uniservenxtcmp_hyper uniservenxtcmp_button form_button" compname="Button" formcomponent="true"
+                container=" " dir="ltr" usn_routingstatus="yes" selected_page="Index_Page"
+                sourcemyid="Landing_page_dynamic_id_8" targetmyid="Parent" isdefault="true"
+                (click)="navigateToComponent('/Index_Page')"><span myid="Landing_page_dynamic_id_9" container=" "
+                    dir="ltr" i18nkey="zform.Landing_page.Landing_page_dynamic_id_9">Proceed</span> <i
+                    class="fa fa-angle-right" myid="Landing_page_dynamic_id_10" container=" " dir="ltr"></i></button>
+            <div class="UserOwnScript" myid="Landing_page_86" container=" " dir="ltr"></div>
+        </form>
+    </div>
+</div>

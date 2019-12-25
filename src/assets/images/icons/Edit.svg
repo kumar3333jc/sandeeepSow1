@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Edit" width="24" height="24" viewBox="0 0 24 24">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{fill:rgba(0,0,0,.6)}
+        </style>
+    </defs>
+    <path id="Path_10705" d="M0 0h24v24H0z" class="cls-1" data-name="Path 10705"/>
+    <path id="Path_10706" d="M3 17.46v3.04a.5.5 0 0 0 .5.5h3.04a.469.469 0 0 0 .35-.15L17.81 9.94l-3.75-3.75L3.15 17.1a.491.491 0 0 0-.15.36zM20.71 7.04a1 1 0 0 0 0-1.41l-2.34-2.34a1 1 0 0 0-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" class="cls-2" data-name="Path 10706"/>
+</svg>
